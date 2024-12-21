@@ -12,16 +12,3 @@ public class Solution {
         return maxProfit;
     }
 }
-// Timeout
-// int profit = 0;
-// for (int i = 0; i < prices.Length; i++)
-// {
-//     var priceI = prices[i];
-//     for (int j = 0; j < prices.Length; j++)
-//     {   
-//         var priceJ = prices[j];
-//         if (priceI - priceJ > 0 && i > j)
-//             profit = Math.Max(profit, priceI - priceJ);
-//     }
-// }
-// return profit;
